@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>个人主页</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="alternate icon" type="image/png" href="assets/i/favicon.png">
+  <link rel="stylesheet" href="assets/css/amazeui.min.css"/>
+  <style>
+    @media only screen and (min-width: 641px) {
+      .am-offcanvas {
+        display: block;
+        position: static;
+        background: none;
+      }
+
+      .am-offcanvas-bar {
+        position: static;
+        width: auto;
+        background: none;
+        -webkit-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+      .am-offcanvas-bar:after {
+        content: none;
+      }
+
+    }
+
+    @media only screen and (max-width: 640px) {
+      .am-offcanvas-bar .am-nav>li>a {
+        color:#ccc;
+        border-radius: 0;
+        border-top: 1px solid rgba(0,0,0,.3);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.05)
+      }
+
+      .am-offcanvas-bar .am-nav>li>a:hover {
+        background: #404040;
+        color: #fff
+      }
+
+      .am-offcanvas-bar .am-nav>li.am-nav-header {
+        color: #777;
+        background: #404040;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+        text-shadow: 0 1px 0 rgba(0,0,0,.5);
+        border-top: 1px solid rgba(0,0,0,.3);
+        font-weight: 400;
+        font-size: 75%
+      }
+
+      .am-offcanvas-bar .am-nav>li.am-active>a {
+        background: #1a1a1a;
+        color: #fff;
+        box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+      }
+
+      .am-offcanvas-bar .am-nav>li+li {
+        margin-top: 0;
+      }
+    }
+
+    .my-head {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .my-button {
+      position: fixed;
+      top: 0;
+      right: 0;
+      border-radius: 0;
+    }
+    .my-sidebar {
+      padding-right: 0;
+      border-right: 1px solid #eeeeee;
+    }
+
+    .my-footer {
+      border-top: 1px solid #eeeeee;
+      padding: 10px 0;
+      margin-top: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<header class="am-g my-head">
+  <div class="am-u-sm-12 am-article">
+	<div style="text-align:left;margin-left:20px;">
+		<a href="index.html">中文</a>  
+		<a style="margin-left:20px;" href="index_en.html">English</a>
+	</div>
+  </div>
+</header>
+<hr class="am-article-divider"/>
+<div class="am-g am-g-fixed">
+  <div class="am-u-md-9 am-u-md-push-3">
+    <div class="am-g">
+      <div class="am-u-sm-11 am-u-sm-centered">
+        <div class="am-cf am-article">
+          
+          <h1><a name="info" id="info">个人简介</a></h1>
+		  
+		  <img src="me.jpg" style="width:145px;height:200px;"/>
+		
+          <p style="">周鹏，男，安徽省枞阳县人。硕士毕业后曾在某大型软件公司担任系统架构师多年。2018年毕业于合肥工业大学软件工程专业，获得工学博士学位。随后加入安徽大学计算机科学与技术学院，主要从事在线学习、特征选择、动态聚类和异常检测等方向的研究工作。目前主持国家自然科学基金青年项目一项，参与国家自然科学基金项目多项。在IEEE TNNLS、ACM TKDD、INS、PR、KBS等国际期刊和会议发表论文多篇，同时担任IEEE TNNLS、ACM TKDD、KBS、DMKD等多个国际知名期刊审稿人
+		  </p>
+		  
+		  <p>联系方式：<img src="email.png" style="width:200px;"></p>
+		  
+          <hr class="am-article-divider">
+		  
+		  
+          <h1><a name="project" id="project">项目情况</a></h1>
+          <h2>主持项目</h2>
+		  
+		  <div>
+          <p> 国家自然科学基金青年项目：基于模糊粗糙集的混合特征流选择方法研究（61906056），2020.1 - 2022.22，24万，主持。</p>
+          </div>
+		  
+		  <h2>参与项目</h2>
+          <p> 横向课题：光伏太阳能电池丝网印刷机参数自动调整算法研究， 2021.5-2022.5， 50万。
+		  </p>
+		  <p> 国家自然科学基金委员会面上项目：面向多源高维数据流的在线特征选择与分类方法研究（61673152），2017.1 - 2020.12， 61万，结题, 参与。</p>
+		  
+          
+		  <hr class="am-article-divider">
+		  
+		  <h1><a name="paper" id="paper">论文情况</a></h1>
+		  <div>
+		    <p>[1] Peng Zhou, Shu Zhao, Yuanting Yan, Xindong Wu. Online scalable streaming feature selection via dynamic decision. ACM Transactions on Knowledge Discovery from Data, 16(5):87, 2022. (JCR三区，CCF B)</p>
+
+			<p>[2] Peng Zhou, Peipei Li, Shu Zhao, Xindong Wu. Feature Interaction for Streaming Feature Selection. IEEE Transactions on Neural Networks and Learning Systems, 32(10):4691-4702, 2021. (JCR一区Top期刊，CCF B)</p>
+
+			<p>[3] Peng Zhou, Ni Wang, Shu Zhao. Online group streaming feature selection considering feature interaction. Knowledge-Based Systems, 226:107157, 2021. (JCR一区Top期刊，CCF C)</p>
+
+			<p>[4] Peng Zhou, Peipei Li, Shu Zhao, Yanping Zhang. Online early terminated streaming feature selection based on Rough Set theory, Applied Soft Computing, 113(B):107993, 2021. (JCR二区Top期刊)</p>
+
+			<p>[5] 吴信东,李娇,周鹏,卜晨阳.碎片化家谱数据的融合技术, 软件学报, 32(9):2816-2836, 2021.(CCF A)</p>
+
+			<p>[6] Peng Zhou, Xuegang Hu, Peipei Li, Xindong Wu. Online Streaming Feature Selection Using Adapted Neighborhood Rough Set. Information Sciences, 2019, 481: 258-279.  (JCR一区Top期刊，CCF B)</p>
+
+			<p>[7] Peng Zhou, Xuegang Hu, Peipei Li, Xindong Wu. OFS-Density: A novel online streaming feature selection method, Pattern Recognition, 2019, 86:48-61. (JCR一区Top期刊，CCF B)</p>
+
+			<p>[8] Xuegang Hu, Peng Zhou, Peipei Li, Jing Wang, Xindong Wu. A survey on online feature selection with streaming features. Frontiers of Computer Science, 2018, 12 (3): 479-493. (JCR二区)</p>
+
+			<p>[9] Peng Zhou, Xuegang Hu, Peipei Li, Xindong Wu. Online feature selection for high-dimensional class-imbalanced data. Knowledge-Based Systems, 2017, 136:187-199. (JCR一区Top期刊，CCF C)</p>
+
+			<p>[10] Peng Zhou, Xuegang Hu, Peipei Li. A New Online Feature Selection Method Using Neighborhood Rough Set. IEEE International Conference on Big Knowledge, 2017.8.9 -8.10.</p>
+		
+			<hr class="am-article-divider">
+		
+			<h1><a name="other" id="other">其他</a></h1>
+			
+		  </div>
+        </div>
+		
+        <ul class="am-comments-list">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="am-u-md-3 am-u-md-pull-9 my-sidebar">
+    <div class="am-offcanvas" id="sidebar">
+      <div class="am-offcanvas-bar">
+        <ul class="am-nav">
+          <li class="am-nav-header">目录</li>
+          <li><a href="#info">个人简介</a></li>
+          <li><a href="#project">项目情况</a></li>
+          <li><a href="#paper">论文情况</a></li>
+          <li><a href="#other">其他</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <a href="#sidebar" class="am-btn am-btn-sm am-btn-success am-icon-bars am-show-sm-only my-button" data-am-offcanvas><span class="am-sr-only">侧栏导航</span></a>
+</div>
+
+<footer class="my-footer">
+  <p><small>© Copyright 2022.</small></p>
+</footer>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+</body>
+</html>
