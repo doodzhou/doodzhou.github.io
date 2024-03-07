@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
   <meta charset="UTF-8">
-  <title>个人主页</title>
+  <title>Homepage</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no">
@@ -88,17 +88,21 @@
       margin-top: 10px;
       text-align: center;
     }
+	
+	.article-style {
+		margin-top: 10px;
+		font-size: 20px;
+	}
+	
+	.paper-year{
+	  margin-top: 10px;
+	  font-size: 20px;
+	  font-weight:bold;
+	}
   </style>
 </head>
 <body>
-<header class="am-g my-head">
-  <div class="am-u-sm-12 am-article">
-	<div style="text-align:left;margin-left:20px;">
-		<a href="index.html">中文</a>  
-		<a style="margin-left:20px;" href="index_en.html">English</a>
-	</div>
-  </div>
-</header>
+
 <hr class="am-article-divider"/>
 <div class="am-g am-g-fixed">
   <div class="am-u-md-9 am-u-md-push-3">
@@ -106,62 +110,170 @@
       <div class="am-u-sm-11 am-u-sm-centered">
         <div class="am-cf am-article">
           
-          <h1><a name="info" id="info">个人简介</a></h1>
+          <h1><a name="info" id="info">PROFILE</a></h1>
 		  
 		  <img src="me.jpg" style="width:145px;height:200px;"/>
 		
-                  <p style="">
-		  周鹏，男，安徽省枞阳县人。硕士毕业后曾在某大型软件公司担任系统架构师多年。2018年毕业于合肥工业大学软件工程专业，获得工学博士学位。
-		  随后加入安徽大学计算机科学与技术学院，主要从事在线学习、特征选择、动态聚类和异常检测等方向的研究工作。
-		  目前主持国家自然科学基金青年项目一项，参与国家自然科学基金项目多项。
-		  在IEEE TNNLS、ACM TKDD、INS、PR、KBS等国际期刊和会议发表论文多篇，同时担任IEEE TNNLS、ACM TKDD、KBS、DMKD等多个国际知名期刊审稿人。
+          <p style="font-size:24px">Zhou Peng is an Associate Professor with the <a href="https://cs.ahu.edu.cn/" target="_blank"> School of Computer Science and Technology </a> at <a href="http://www.ahu.edu.cn/" target="_blank">Anhui University</a>. He received his Ph.D degree in computer science from Hefei University of Technology, China. His research interests include data mining and machine learning, stream learning, feature selection, anomaly detection and explainable machine learning.
 		  </p>
+		  <p>Google Scholar: <a href="https://scholar.google.com/citations?user=IZCki_cAAAAJ&hl=en" target="_blank">https://scholar.google.com/citations?user=IZCki_cAAAAJ&hl=en</a> </p>
+		  <p>Email：<img src="email.png" style="width:200px;"></p>
 		  
-		  <p>联系方式：<img src="email.png" style="width:200px;"></p>
+		  
+		  <hr class="am-article-divider">
+		  
+		  
+          <h1><a name="posts" id="posts">RECENT POSTS</a></h1>
+          <h2 style="font-size:22px;font-weight:bold;">New paper is coming!</h2>
+		  
+		  <div class="article-style">
+		       <a href="https://ieeexplore.ieee.org/abstract/document/10382574"  target="_blank">
+                 <strong><code>One Paper</code></strong> Online Heterogeneous Streaming Feature Selection without Feature Type Information </a>
+				 is Accepted by <em>IEEE Transactions on Big Data</em></a> (08/01/2024)
+          </div>
+		  <div class="article-style">
+		       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417424000058"  target="_blank">
+                 <strong><code>One Paper</code></strong> Unsupervised technical phrase extraction by incorporating structure and position information </a>
+				 is Accepted by <em>Expert Systems with Applications</em></a> (01/07/2024)
+          </div>
+		  
+	  
+		  
+		  <hr class="am-article-divider">
+		  <h1><a name="paper" id="paper">PUBLICATIONS</a></h1>
+		  <div>
+		  
+		<p class="paper-year">2023</p>
+		    <p><i class="am-icon-file-text"></i>  Peng Zhou, Ni Wang, Shu Zhao, Yanping Zhang, Xindong Wu. Difficult Novel Class Detection in Semisupervised Streaming Data. IEEE Transactions on Neural Networks and Learning Systems, 34(10):6872-6886, 2023. </p>
+			<a class="am-btn am-btn-success am-round" href="publications/2023/Difficult Novel Class Detection in Semisupervised Streaming Data.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="https://github.com/doodzhou/Steam-Learning/tree/main/Difficult%20Novel%20Class%20Detection%20in%20Semisupervised%20Streaming%20Data" target="_blank" rel="noopener"> CODE</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2023/202301.bib" target="_blank" rel="noopener"> CITE</a>
+			
+			<p><i class="am-icon-file-text"></i> Peng Zhou, Ni Wang, Shu Zhao, Yanping Zhang. Robust semi-supervised clustering via data transductive warping. Applied Intelligence, 53:1254-1270, 2023. </p>
+			<a class="am-btn am-btn-success am-round" href="publications/2023/Robust semi-supervised clustering via data transductive warping.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="https://github.com/doodzhou/Steam-Learning/tree/main/Robust%20semi-supervised%20clustering%20via%20data%20transductive%20warping" target="_blank" rel="noopener"> CODE</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2023/202302.bib" target="_blank" rel="noopener"> CITE</a>
+		  
+		<p class="paper-year">2022</p>
+		    <p><i class="am-icon-file-text"></i>  Peng Zhou, Shu Zhao, Yuanting Yan, Xindong Wu. Online scalable streaming feature selection via dynamic decision. ACM Transactions on Knowledge Discovery from Data, 16(5):87, 2022. </p>
+			<a class="am-btn am-btn-success am-round" href="publications/2022/Online Scalable Streaming Feature Selection via Dynamic Decision.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="https://github.com/doodzhou/OSFS/tree/master/Online%20Scalable%20Streaming%20Feature%20Selection%20via%20Dynamic%20Decision" target="_blank" rel="noopener"> CODE</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2022/202202.bib" target="_blank" rel="noopener"> CITE</a>
+			
+			<p><i class="am-icon-file-text"></i>  Peng Zhou, Yunyun Zhang, Peipei Li, Xindong Wu. General assembly framework for online streaming feature selection via Rough Set models. Expert Systems With Applications, 204:117520, 2022. </p>
+			<a class="am-btn am-btn-success am-round" href="publications/2022/General assembly framework for online streaming feature selection via Rough Set Models.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="https://github.com/doodzhou/OSFS/tree/master/General%20assembly%20framework%20for%20online%20streaming%20feature%20selection%20via%20Rough%20Set%20models" target="_blank" rel="noopener"> CODE</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2022/202201.bib" target="_blank" rel="noopener"> CITE</a>
+			
+			<p><i class="am-icon-file-text"></i>  Peng Zhou, Yunyun Zhang, Yuanting Yan, Shu Zhao. Unknown Type Streaming Feature Selection via Maximal Information Coefficient. 2022 IEEE International Conference on Data Mining Workshops (ICDMW), PP:650-657, 2022. </p>
+			<a class="am-btn am-btn-success am-round" href="publications/2022/Unknown Type Streaming Feature Selection via Maximal Information Coefficient.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2022/202203.bib" target="_blank" rel="noopener"> CITE</a>
+
+
+        <p class="paper-year">2021</p>
+			<p><i class="am-icon-file-text"></i>  Peng Zhou, Peipei Li, Shu Zhao, Xindong Wu. Feature Interaction for Streaming Feature Selection. IEEE Transactions on Neural Networks and Learning Systems, 32(10):4691-4702, 2021. </p>
+			<a class="am-btn am-btn-success am-round" href="publications/2021/Feature Interaction for Streaming Feature Selection.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="https://github.com/doodzhou/OSFS/tree/master/Feature%20Interaction%20for%20Streaming%20Feature%20Selection" target="_blank" rel="noopener"> CODE</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2021/202101.bib" target="_blank" rel="noopener"> CITE</a>
+			
+			<p><i class="am-icon-file-text"></i>  Peng Zhou, Ni Wang, Shu Zhao. Online group streaming feature selection considering feature interaction. Knowledge-Based Systems, 226:107157, 2021. </p>
+			<a class="am-btn am-btn-success am-round" href="publications/2021/Online group streaming feature selection considering feature interaction.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="https://github.com/doodzhou/OSFS/tree/master/Online%20group%20streaming%20feature%20selection%20considering%20feature%20interaction" target="_blank" rel="noopener"> CODE</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2021/202102.bib" target="_blank" rel="noopener"> CITE</a>
+
+
+			<p><i class="am-icon-file-text"></i>  Peng Zhou, Peipei Li, Shu Zhao, Yanping Zhang. Online early terminated streaming feature selection based on Rough Set theory, Applied Soft Computing, 113(B):107993, 2021. </p>
+			<a class="am-btn am-btn-success am-round" href="publications/2021/Online early terminated streaming feature selection based on rough set theory.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="https://github.com/doodzhou/OSFS/tree/master/Online%20early%20terminated%20streaming%20feature%20selection%20based%20on%20Rough%20Set%20theory" target="_blank" rel="noopener"> CODE</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2021/202103.bib" target="_blank" rel="noopener"> CITE</a>
+
+			
+			
+			
+		<p class="paper-year">2019</p>
+			<p><i class="am-icon-file-text"></i>  Peng Zhou, Xuegang Hu, Peipei Li, Xindong Wu. Online Streaming Feature Selection Using Adapted Neighborhood Rough Set. Information Sciences, 2019, 481: 258-279.</p>
+			<a class="am-btn am-btn-success am-round" href="publications/2019/Online Streaming Feature Selection Using Adapted Neighborhood Rough Set.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="https://github.com/doodzhou/OSFS/tree/master/Online%20streaming%20feature%20selection%20using%20adapted%20neighborhood%20rough%20set" target="_blank" rel="noopener"> CODE</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2019/201901.bib" target="_blank" rel="noopener"> CITE</a>
+			
+
+			<p><i class="am-icon-file-text"></i> Peng Zhou, Xuegang Hu, Peipei Li, Xindong Wu. OFS-Density: A novel online streaming feature selection method, Pattern Recognition, 2019, 86:48-61.</p>
+			<a class="am-btn am-btn-success am-round" href="publications/2019/OFS-Density A novel online streaming feature selection method.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="https://github.com/doodzhou/OSFS/tree/master/OFS-Density%3A%20A%20novel%20online%20streaming%20feature%20selection%20method" target="_blank" rel="noopener"> CODE</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2019/201902.bib" target="_blank" rel="noopener"> CITE</a>
+
+		<p class="paper-year">2018</p>
+			
+			<p><i class="am-icon-file-text"></i>  Xuegang Hu, Peng Zhou, Peipei Li, Jing Wang, Xindong Wu. A survey on online feature selection with streaming features. Frontiers of Computer Science, 2018, 12 (3): 479-493.</p>
+			<a class="am-btn am-btn-success am-round" href="publications/2018/A Survey on Online Feature Selection with Streaming Features .pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2018/201801.bib" target="_blank" rel="noopener"> CITE</a>
+			
+			
+		<p class="paper-year">2017</p>
+			
+			<p><i class="am-icon-file-text"></i>  Peng Zhou, Xuegang Hu, Peipei Li, Xindong Wu. Online feature selection for high-dimensional class-imbalanced data. Knowledge-Based Systems, 2017, 136:187-199. </p> 
+			<a class="am-btn am-btn-success am-round" href="publications/2017/Online Feature Selection for high-dimensional Class Imbalance Data.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="https://github.com/doodzhou/OSFS/tree/master/Online%20feature%20selection%20for%20high-dimensional%20class-imbalanced%20data" target="_blank" rel="noopener"> CODE</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2017/201701.bib" target="_blank" rel="noopener"> CITE</a>
+			
+
+			<p><i class="am-icon-file-text"></i>  Peng Zhou, Xuegang Hu, Peipei Li. A New Online Feature Selection Method Using Neighborhood Rough Set. IEEE International Conference on Big Knowledge, 2017.8.9 -8.10.</p>
+			<a class="am-btn am-btn-success am-round" href="publications/2017/A new online streaming feature selection method using neighborhood rough set.pdf" target="_blank" rel="noopener"> PDF</a>
+			<a class="am-btn am-btn-success am-round" href="https://github.com/doodzhou/OSFS/tree/master/Online%20streaming%20feature%20selection%20using%20adapted%20neighborhood%20rough%20set" target="_blank" rel="noopener"> CODE</a>
+			<a class="am-btn am-btn-success am-round" href="publications/2017/201702.bib" target="_blank" rel="noopener"> CITE</a>
+		  
+		  
 		  
           <hr class="am-article-divider">
 		  
+          <h1><a name="project" id="project">GRANTS & PROJECTS</a></h1>
+          <p class="paper-year"><i class="am-icon-align-justify"></i> Online anomaly detection for trapezoidal streaming data</p>
+		  <ul>
+			<li>National Natural Science Foundation of China</li>
+			<li>No: 62376001</li>
+			<li>2024/1--2027/12</li>
+		  </ul>
 		  
-          <h1><a name="project" id="project">项目情况</a></h1>
-          <h2>主持项目</h2>
+		  <p class="paper-year"><i class="am-icon-align-justify"></i> Key technologies of online anomaly detection for heterogeneous streaming data</p>
+		  <ul>
+			<li>Natural Science Foundation of Anhui Provice of China</li>
+			<li>No: 2308085MF215</li>
+			<li>2023/9/1--2026/8/31</li>
+		  </ul>
 		  
-		  <div>
-          <p> 国家自然科学基金青年项目：基于模糊粗糙集的混合特征流选择方法研究（61906056），2020.1 - 2022.22，24万，主持。</p>
-          </div>
-		  
-		  <h2>参与项目</h2>
-          <p> 横向课题：光伏太阳能电池丝网印刷机参数自动调整算法研究， 2021.5-2022.5， 50万。
-		  </p>
-		  <p> 国家自然科学基金委员会面上项目：面向多源高维数据流的在线特征选择与分类方法研究（61673152），2017.1 - 2020.12， 61万，结题, 参与。</p>
+		  <p class="paper-year"><i class="am-icon-align-justify"></i> Mixed streaming feature selection based on fuzzy rough set</p>
+		  <ul>
+			<li>National Natural Science Foundation of China (Youth Program)</li>
+			<li>No: 61906056</li>
+			<li>2020/1--2022/12</li>
+		  </ul>
 		  
           
-		  <hr class="am-article-divider">
-		  
-		  <h1><a name="paper" id="paper">论文情况</a></h1>
-		  <div>
-		    <p>[1] Peng Zhou, Shu Zhao, Yuanting Yan, Xindong Wu. Online scalable streaming feature selection via dynamic decision. ACM Transactions on Knowledge Discovery from Data, 16(5):87, 2022. (JCR三区，CCF B)</p>
-
-			<p>[2] Peng Zhou, Peipei Li, Shu Zhao, Xindong Wu. Feature Interaction for Streaming Feature Selection. IEEE Transactions on Neural Networks and Learning Systems, 32(10):4691-4702, 2021. (JCR一区Top期刊，CCF B)</p>
-
-			<p>[3] Peng Zhou, Ni Wang, Shu Zhao. Online group streaming feature selection considering feature interaction. Knowledge-Based Systems, 226:107157, 2021. (JCR一区Top期刊，CCF C)</p>
-
-			<p>[4] Peng Zhou, Peipei Li, Shu Zhao, Yanping Zhang. Online early terminated streaming feature selection based on Rough Set theory, Applied Soft Computing, 113(B):107993, 2021. (JCR二区Top期刊)</p>
-
-			<p>[5] 吴信东,李娇,周鹏,卜晨阳.碎片化家谱数据的融合技术, 软件学报, 32(9):2816-2836, 2021.(CCF A)</p>
-
-			<p>[6] Peng Zhou, Xuegang Hu, Peipei Li, Xindong Wu. Online Streaming Feature Selection Using Adapted Neighborhood Rough Set. Information Sciences, 2019, 481: 258-279.  (JCR一区Top期刊，CCF B)</p>
-
-			<p>[7] Peng Zhou, Xuegang Hu, Peipei Li, Xindong Wu. OFS-Density: A novel online streaming feature selection method, Pattern Recognition, 2019, 86:48-61. (JCR一区Top期刊，CCF B)</p>
-
-			<p>[8] Xuegang Hu, Peng Zhou, Peipei Li, Jing Wang, Xindong Wu. A survey on online feature selection with streaming features. Frontiers of Computer Science, 2018, 12 (3): 479-493. (JCR二区)</p>
-
-			<p>[9] Peng Zhou, Xuegang Hu, Peipei Li, Xindong Wu. Online feature selection for high-dimensional class-imbalanced data. Knowledge-Based Systems, 2017, 136:187-199. (JCR一区Top期刊，CCF C)</p>
-
-			<p>[10] Peng Zhou, Xuegang Hu, Peipei Li. A New Online Feature Selection Method Using Neighborhood Rough Set. IEEE International Conference on Big Knowledge, 2017.8.9 -8.10.</p>
+		<hr class="am-article-divider">
+		<h1><a name="service" id="service">PROFESSIONAL SERVICES</a></h1>
+		<p class="paper-year"><i class="am-icon-user"></i> Journal Reviewer</p>
+		<ul>
+			<li>IEEE Transactions on Neural Networks and Learning Systems</li>
+			<li>ACM Transactions on Knowledge Discovery from Data</li>
+			<li>IEEE Transactions on Big Data</li>
+			<li>IEEE Transactions on Systems, Man and Cybernetics: Systems</li>
+			<li>IEEE Transactions on Emerging Topics in Computational Intelligence</li>
+			<li>IEEE Transactions on Fuzzy Systems</li>
+			<li>WIREs Data Mining and Knowledge Discovery</li>
+			<li>Knowledge-Based Systems</li>
+			<li>Engineering Applications of Artificial Intelligence</li>
+		</ul>
 		
-			<hr class="am-article-divider">
 		
-			<h1><a name="other" id="other">其他</a></h1>
+		<hr class="am-article-divider">
+		<h1><a name="resource" id="resource">RESOURCES</a></h1>
+		
+		<p class="paper-year">Code and Software</p>
+		<p> A list of open source code is maintained on <a href="https://github.com/doodzhou" target="_blank">Github</a>. More source code will be released as it is ready for publishing.</p>
+		
+		
+		<hr class="am-article-divider">
+		<h1><a name="other" id="other">Others</a></h1>
 			
 		  </div>
         </div>
@@ -175,11 +287,14 @@
     <div class="am-offcanvas" id="sidebar">
       <div class="am-offcanvas-bar">
         <ul class="am-nav">
-          <li class="am-nav-header">目录</li>
-          <li><a href="#info">个人简介</a></li>
-          <li><a href="#project">项目情况</a></li>
-          <li><a href="#paper">论文情况</a></li>
-          <li><a href="#other">其他</a></li>
+          <li class="am-nav-header">CONTENT</li>
+          <li><a href="#info">PROFILE</a></li>
+		  <li><a href="#posts">RECENT POSTS</a></li>
+		  <li><a href="#paper">PUBLICATIONS</a></li>
+          <li><a href="#project">GRANTS & PROJECTS </a></li>
+          <li><a href="#service">PROFESSIONAL SERVICES</a></li>
+		  <li><a href="#resource">RESOURCES</a></li>
+          <li><a href="#other">Others</a></li>
         </ul>
       </div>
     </div>
